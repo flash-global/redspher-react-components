@@ -367,6 +367,7 @@ const ShipperShowCase = () => {
           <PinIcon title='PinIcon' />
           <RequestIcon title='RequestIcon' />
           <StepIcon title='StepIcon' />
+
           <ActionIcon title='ActionIcon' />
           <MonitoringIcon title='MonitoringIcon' />
           <DeliveryDetailsIcon title='DeliveryDetailsIcon' />
@@ -472,46 +473,46 @@ const ShipperShowCase = () => {
           }}
         >
           <Grid item sm={4}>
-              <ShipperCardVehicle
-                startIcon='truck01'
-                value='truck01'
-                labelOne='Label'
-                labelTwo='label'
-                disabled={false}
-                onclickFnc={cardVehicleAction}
-                selectedValue={selectedVehicle}
-                setSelectedValue={setSelectedVehicle}
-                tooltipValue={
-                  <>
-                    <h1>HELLO</h1>
-                    <p>I'm a tooltip</p>
-                  </>
-                }
-              />
+            <ShipperCardVehicle
+              startIcon='truck01'
+              value='truck01'
+              labelOne='Label'
+              labelTwo='label'
+              disabled={false}
+              onclickFnc={cardVehicleAction}
+              selectedValue={selectedVehicle}
+              setSelectedValue={setSelectedVehicle}
+              tooltipValue={
+                <>
+                  <h1>HELLO</h1>
+                  <p>I'm a tooltip</p>
+                </>
+              }
+            />
           </Grid>
           <Grid item sm={4}>
-              <ShipperCardVehicle
-                startIcon='truck02'
-                value='truck02'
-                labelOne='Label'
-                labelTwo='label'
-                disabled={false}
-                onclickFnc={cardVehicleAction}
-                selectedValue={selectedVehicle}
-                setSelectedValue={setSelectedVehicle}
-              />
+            <ShipperCardVehicle
+              startIcon='truck02'
+              value='truck02'
+              labelOne='Label'
+              labelTwo='label'
+              disabled={false}
+              onclickFnc={cardVehicleAction}
+              selectedValue={selectedVehicle}
+              setSelectedValue={setSelectedVehicle}
+            />
           </Grid>
           <Grid item sm={4}>
-              <ShipperCardVehicle
-                startIcon='truck03'
-                value='truck03'
-                labelOne='Label'
-                labelTwo='label'
-                disabled={false}
-                onclickFnc={cardVehicleAction}
-                selectedValue={selectedVehicle}
-                setSelectedValue={setSelectedVehicle}
-              />
+            <ShipperCardVehicle
+              startIcon='truck03'
+              value='truck03'
+              labelOne='Label'
+              labelTwo='label'
+              disabled={false}
+              onclickFnc={cardVehicleAction}
+              selectedValue={selectedVehicle}
+              setSelectedValue={setSelectedVehicle}
+            />
           </Grid>
         </Grid>
         <Grid container direction='row'>
