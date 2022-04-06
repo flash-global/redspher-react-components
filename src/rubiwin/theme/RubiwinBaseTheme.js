@@ -84,8 +84,12 @@ const rubiwinBaseTheme = {
       }
     },
     MuiTableSortLabel: {
-      root: { color: themeConstants.grey.lighter + '!important', opacity: 1 },
-      active: { color: themeConstants.grey.lighter, opacity: 1 },
+      root: { 
+        "&.Mui-active": {
+          "color": themeConstants.grey.lighter,
+          "opacity": 1
+        } 
+      },
       icon: { color: themeConstants.grey.lighter, opacity: 1 }
     },
     MuiFormLabel: {
@@ -286,8 +290,12 @@ const rubiwinBaseTheme = {
     },
     MuiTableSortLabel: {
       styleOverrides: {
-        root: { color: themeConstants.grey.lighter + '!important', opacity: 1 },
-        active: { color: themeConstants.grey.lighter, opacity: 1 },
+        root: { 
+          "&.Mui-active": {
+            "color": themeConstants.grey.lighter,
+            "opacity": 1
+          } 
+        },
         icon: { color: themeConstants.grey.lighter, opacity: 1 }
       }
     },
