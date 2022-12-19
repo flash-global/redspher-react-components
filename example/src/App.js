@@ -198,6 +198,7 @@ import {
   RubiwinDatePicker,
   E4PlaneIcon,
   StopWatchIcon,
+  NoIdeaIcon,
   MessageIcon
 } from 'redspher-components';
 import {
@@ -1401,7 +1402,7 @@ const ShipperShowCase = () => {
           <EditIcon title='EditIcon' />
           <PrintIcon title='PrintIcon' />
           <ApprovalFlowIcon title='ApprovalFlowIcon' />
-          <NotificationIcon title='NotificationIcon' />
+          <NotificationIcon title='NoIdeaIcon' />
           <NewNotificationIcon title='NewNotificationIcon' />
           <GearIcon title='GearIcon' />
           <DuplicateIcon title='DuplicateIcon' />
@@ -1424,6 +1425,7 @@ const ShipperShowCase = () => {
           <E4PlaneIcon title='E4PlaneIcon' />
           <StopWatchIcon title='StopWatchIcon' />
           <MessageIcon title='MessageIcon' />
+          <NoIdeaIcon title='NoIdeaIcon' />
         </section>
         <section
           style={{

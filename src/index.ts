@@ -211,6 +211,7 @@ import E4PlaneIcon from './icons/Shipper/E4PlaneIcon/E4PlaneIcon';
 import StopWatchIcon from './icons/Shipper/StopWatchIcon';
 import MessageIcon from './icons/Shipper/MessageIcon';
 import ShipperAutocomplete from './shipper/ShipperAutocomplete';
+import NoIdeaIcon from './icons/Shipper/NoIdeaIcon';
 
 export {
   RubiwinButton,
@@ -417,5 +418,6 @@ export {
   E4PlaneIcon,
   StopWatchIcon,
   MessageIcon,
+  NoIdeaIcon,
   ShipperAutocomplete
 };
