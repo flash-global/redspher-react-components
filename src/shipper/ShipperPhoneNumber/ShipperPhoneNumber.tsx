@@ -61,11 +61,13 @@ function PhoneNumber({
   label,
   onChange = () => null,
   name = 'phoneNumber',
-  value,
+  value = '',
   defaultCountry = 'fr',
   ...props
 }: IphoneNumber) {
-  const [error, setError] = useState(false);
+  const [error, setError] = useState(
+    enableValidation ? !isValidPhoneNumber(value) : false
+  );
   const [countryCode, setCountryCode] = useState(defaultCountry);
 
   return (
