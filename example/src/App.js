@@ -212,7 +212,8 @@ import {
   E4PlaneIcon,
   StopWatchIcon,
   NoIdeaIcon,
-  MessageIcon
+  MessageIcon,
+  Parcel2Icon
 } from 'redspher-components';
 import {
   Button,
