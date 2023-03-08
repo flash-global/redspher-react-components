@@ -115,6 +115,19 @@ import {
   DeleteIcon,
   InvoiceIcon,
   PickupDetailsIcon,
+  PourcentIcon,
+  TicketIcon,
+  ShareIcon,
+  LinkIcon,
+  LogoDefaultAddressBookIcon,
+  ExpiredIcon,
+  FilterIcon,
+  CompanyIcon,
+  AddressIcon,
+  ShippementNoLongerOfferIcon,
+  LessIcon,
+  RailIcon,
+  SeaIcon,
   SearchIcon,
   PinIcon,
   RequestIcon,
@@ -199,7 +212,8 @@ import {
   E4PlaneIcon,
   StopWatchIcon,
   NoIdeaIcon,
-  MessageIcon
+  MessageIcon,
+  Parcel2Icon
 } from 'redspher-components';
 import {
   Button,
@@ -1335,97 +1349,113 @@ const ShipperShowCase = () => {
         <section
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(6, 1fr)',
+            gridTemplateColumns: 'repeat(13, 1fr)',
             placeItems: 'center',
             gap: '1em'
           }}
         >
           <PlusIcon title='PlusIcon' />
-          <ConfirmationIcon title='ConfirmationIcon' />
-          <OffersIcon title='OffersIcon' />
-          <StatisticsIcon title='StatisticsIcon' />
-          <CalendarIcon title='CalendarIcon' />
-          <PaletIcon title='PaletIcon' />
-          <DriverIcon title='DriverIcon' />
-          <ParcelIcon title='ParcelIcon' />
           <ShipmentsIcon title='ShipmentsIcon' />
-          <QuotesIcon title='QuotesIcon' />
-          <DisconnectIcon title='DisconnectIcon' />
-          <AddressBookIcon title='AddressBookIcon' />
-          <HourIcon title='HourIcon' />
-          <DeleteIcon title='DeleteIcon' />
           <InvoiceIcon title='InvoiceIcon' />
-          <PickupDetailsIcon title='PickupDetailsIcon' />
-          <SearchIcon title='SearchIcon' />
-          <PinIcon title='PinIcon' />
-          <RequestIcon title='RequestIcon' />
-          <StepIcon title='StepIcon' />
-          <ActionIcon title='ActionIcon' />
           <MonitoringIcon title='MonitoringIcon' />
-          <DeliveryDetailsIcon title='DeliveryDetailsIcon' />
-          <PriceIcon title='PriceIcon' />
-          <InformationIcon title='Icon' />
-          <AutomaticIcon title='AutomaticIcon' />
-          <HelpIcon title='HelpIcon' />
-          <LogoAddressBookIcon title='LogoAddressBookIcon' />
-          <TruckIcon title='TruckIcon' />
-          <SemiIcon title='SemiIcon' />
           <VanIcon title='VanIcon' />
-          <BreakIcon title='BreakIcon' />
-          <ExpertIcon title='ExpertIcon' />
-          <People1Icon title='People1Icon' />
           <ArrowLeftIcon title='ArrowLeftIcon' />
-          <ArrowBottomIcon title='ArrowBottomIcon' />
-          <ArrowRightIcon title='ArrowRightIcon' />
-          <ArrowTopIcon title='ArrowTopIcon' />
-          <AddStepsIcon title='AddStepsIcon' />
-          <PeopleGroupIcon title='PeopleGroupIcon' />
-          <CheckIcon title='CheckIcon' />
           <SideLoadIcon title='SideLoadIcon' />
-          <TailLiftIcon title='TailLiftIcon' />
-          <DownloadIcon title='DownloadIcon' />
-          <UploadIcon title='UploadIcon' />
-          <BurgerIcon title='BurgerIcon' />
-          <BurgerCloseIcon title='BurgerCloseIcon' />
-          <StarIcon title='StarIcon' />
           <TimerIcon title='TimerIcon' />
-          <NotIncludedIcon title='NotIcon' />
-          <VisibilityIcon title='VisibilityIcon' />
-          <VisibilityNoneIcon title='VisibilityNoneIcon' />
-          <LoadingIcon title='LoadingIcon' />
-          <WarningIcon title='WarningIcon' />
-          <People2Icon title='People2Icon' />
           <ArrowLeft2Icon title='ArrowLeft2Icon' />
-          <ArrowBottom2Icon title='ArrowBottom2Icon' />
-          <ArrowRight2Icon title='ArrowRight2Icon' />
-          <ArrowTop2Icon title='ArrowTop2Icon' />
-          <EditIcon title='EditIcon' />
-          <PrintIcon title='PrintIcon' />
-          <ApprovalFlowIcon title='ApprovalFlowIcon' />
-          <NotificationIcon title='NoIdeaIcon' />
-          <NewNotificationIcon title='NewNotificationIcon' />
+          <PourcentIcon title='PourcentIcon' />
           <GearIcon title='GearIcon' />
-          <DuplicateIcon title='DuplicateIcon' />
-          <ShipmentsOrderValidatedIcon title='ShipmentsOrderValidatedIcon' />
-          <ShipmentsPossibleDelayIcon title='ShipmentsPossibleDelayIcon' />
-          <ShipmentsArrivalPUIcon title='ShipmentsArrivalPUIcon' />
-          <ShipmentsOnGoingIcon title='ShipmentsOnGoingIcon' />
-          <ShipmentsLateForDEIcon title='ShipmentsLateForDEIcon' />
           <ShipmentsArrivalOnDEIcon title='ShipmentsArrivalOnDEIcon' />
-          <ShipmentsDeliveredIcon title='ShipmentsDeliveredIcon' />
-          <InvoicesNewIcon title='InvoicesNewIcon' />
-          <InvoicesOverdueIcon title='InvoicesOverdueIcon' />
-          <InvoicesPayedIcon title='InvoicesPayedIcon' />
-          <ApprovalFlowValidationRequestedIcon title='ApprovalFlowValidationRequestedIcon' />
-          <ApprovalFlowValidationExpiredIcon title='ApprovalFlowValidationExpiredIcon' />
           <QuotesNewQuoteIcon title='QuotesNewQuoteIcon' />
+          <ConfirmationIcon title='ConfirmationIcon' />
+          <ParcelIcon title='ParcelIcon' />
+          <PickupDetailsIcon title='PickupDetailsIcon' />
+          <DeliveryDetailsIcon title='DeliveryDetailsIcon' />
+          <BreakIcon title='BreakIcon' />
+          <ArrowBottomIcon title='ArrowBottomIcon' />
+          <TailLiftIcon title='TailLiftIcon' />
+          <NotIncludedIcon title='NotIcon' />
+          <ArrowRight2Icon title='ArrowRight2Icon' />
+          <TicketIcon title='TicketIcon' />
+          <DuplicateIcon title='DuplicateIcon' />
+          <ShipmentsDeliveredIcon title='ShipmentsDeliveredIcon' />
           <QuotesNewOffersIcon title='QuotesNewOffersIcon' />
+          <OffersIcon title='OffersIcon' />
+          <QuotesIcon title='QuotesIcon' />
+          <SearchIcon title='SearchIcon' />
+          <PriceIcon title='PriceIcon' />
+          <TruckIcon title='TruckIcon' />
+          <ArrowRightIcon title='ArrowRightIcon' />
+          <DownloadIcon title='DownloadIcon' />
+          <VisibilityIcon title='VisibilityIcon' />
+          <ArrowBottom2Icon title='ArrowBottom2Icon' />
+          <ShareIcon title='ShareIcon' />
+          <ShipmentsOrderValidatedIcon title='ShipmentsOrderValidatedIcon' />
+          <InvoicesNewIcon title='InvoicesNewIcon' />
           <QuotesSentValidationIcon title='QuotesSentValidationIcon' />
+          <PaletIcon title='PaletIcon' />
+          <DisconnectIcon title='DisconnectIcon' />
+          <PinIcon title='PinIcon' />
+          <InformationIcon title='Icon' />
+          <SemiIcon title='SemiIcon' />
+          <ArrowTopIcon title='ArrowTopIcon' />
+          <UploadIcon title='UploadIcon' />
+          <VisibilityNoneIcon title='VisibilityNoneIcon' />
+          <ArrowTop2Icon title='ArrowTop2Icon' />
+          <VanIcon title='VanIcon' />
+          <ShipmentsPossibleDelayIcon title='ShipmentsPossibleDelayIcon' />
+          <InvoicesOverdueIcon title='InvoicesOverdueIcon' />
           <StatisticsReportAvailableIcon title='StatisticsReportAvailableIcon' />
+          <StatisticsIcon title='StatisticsIcon' />
+          <AddressBookIcon title='AddressBookIcon' />
+          <RequestIcon title='RequestIcon' />
+          <AutomaticIcon title='AutomaticIcon' />
+          <ExpertIcon title='ExpertIcon' />
+          <AddStepsIcon title='AddStepsIcon' />
+          <BurgerIcon title='BurgerIcon' />
+          <LoadingIcon title='LoadingIcon' />
+          <EditIcon title='EditIcon' />
+          <BreakIcon title='BreakIcon' />
+          <ShipmentsArrivalPUIcon title='ShipmentsArrivalPUIcon' />
+          <InvoicesPayedIcon title='InvoicesPayedIcon' />
           <E4PlaneIcon title='E4PlaneIcon' />
-          <StopWatchIcon title='StopWatchIcon' />
+          <CalendarIcon title='CalendarIcon' />
+          <HourIcon title='HourIcon' />
+          <StepIcon title='StepIcon' />
+          <HelpIcon title='HelpIcon' />
+          <People1Icon title='People1Icon' />
+          <PeopleGroupIcon title='PeopleGroupIcon' />
+          <BurgerCloseIcon title='BurgerCloseIcon' />
+          <WarningIcon title='WarningIcon' />
+          <LinkIcon title='LinkIcon' />
+          <ApprovalFlowIcon title='ApprovalFlowIcon' />
+          <ShipmentsOnGoingIcon title='ShipmentsOnGoingIcon' />
+          <ApprovalFlowValidationRequestedIcon title='ApprovalFlowValidationRequestedIcon' />
           <MessageIcon title='MessageIcon' />
+          <DriverIcon title='DriverIcon' />
+          <DeleteIcon title='DeleteIcon' />
+          <ActionIcon title='ActionIcon' />
+          <LogoAddressBookIcon title='LogoAddressBookIcon' />
+          <LogoDefaultAddressBookIcon title='LogoDefaultAddressBookIcon' />
+          <CheckIcon title='CheckIcon' />
+          <StarIcon title='StarIcon' />
+          <People2Icon title='People2Icon' />
+          <PrintIcon title='PrintIcon' />
+          <NewNotificationIcon title='NewNotificationIcon' />
+          <ShipmentsLateForDEIcon title='ShipmentsLateForDEIcon' />
+          <ApprovalFlowValidationExpiredIcon title='ApprovalFlowValidationExpiredIcon' />
+          <ExpiredIcon title='ExpiredIcon' />
+          <FilterIcon title='FilterIcon' />
+          <CompanyIcon title='CompanyIcon' />
+          <AddressIcon title='AddressIcon' />
+          <ShippementNoLongerOfferIcon title='ShippementNoLongerOfferIcon' />
           <NoIdeaIcon title='NoIdeaIcon' />
+          <LessIcon title='LessIcon' />
+          <RailIcon title='RailIcon' />
+          <SeaIcon title='SeaIcon' />
+          <Parcel2Icon title='Parcel2Icon' />
+          <NotificationIcon title='NoIdeaIcon' />
+          <StopWatchIcon title='StopWatchIcon' />
         </section>
         <section
           style={{
