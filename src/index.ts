@@ -150,6 +150,20 @@ import ActionIcon from './icons/Shipper/ActionIcon';
 import MonitoringIcon from './icons/Shipper/MonitoringIcon';
 import DeliveryDetailsIcon from './icons/Shipper/DeliveryDetailsIcon';
 import PriceIcon from './icons/Shipper/PriceIcon';
+import PourcentIcon from './icons/Shipper/PourcentIcon';
+import TicketIcon from './icons/Shipper/TicketIcon';
+import ShareIcon from './icons/Shipper/ShareIcon';
+import LinkIcon from './icons/Shipper/LinkIcon';
+import LogoDefaultAddressBookIcon from './icons/Shipper/LogoDefaultAddressBookIcon';
+import ExpiredIcon from './icons/Shipper/ExpiredIcon';
+import FilterIcon from './icons/Shipper/FilterIcon';
+import CompanyIcon from './icons/Shipper/CompanyIcon';
+import AddressIcon from './icons/Shipper/AddressIcon';
+import ShippementNoLongerOfferIcon from './icons/Shipper/ShippementNoLongerOfferIcon';
+import LessIcon from './icons/Shipper/LessIcon';
+import RailIcon from './icons/Shipper/RailIcon';
+import SeaIcon from './icons/Shipper/SeaIcon';
+import Parcel2Icon from './icons/Shipper/Parcel2Icon';
 import InformationIcon from './icons/Shipper/InformationIcon';
 import AutomaticIcon from './icons/Shipper/AutomaticIcon';
 import HelpIcon from './icons/Shipper/HelpIcon';
@@ -343,6 +357,20 @@ export {
   MonitoringIcon,
   DeliveryDetailsIcon,
   PriceIcon,
+  PourcentIcon,
+  TicketIcon,
+  ShareIcon,
+  LinkIcon,
+  LogoDefaultAddressBookIcon,
+  ExpiredIcon,
+  FilterIcon,
+  CompanyIcon,
+  AddressIcon,
+  ShippementNoLongerOfferIcon,
+  LessIcon,
+  RailIcon,
+  SeaIcon,
+  Parcel2Icon,
   InformationIcon,
   AutomaticIcon,
   HelpIcon,
