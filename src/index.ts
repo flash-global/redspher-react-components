@@ -226,6 +226,8 @@ import StopWatchIcon from './icons/Shipper/StopWatchIcon';
 import MessageIcon from './icons/Shipper/MessageIcon';
 import ShipperAutocomplete from './shipper/ShipperAutocomplete';
 import NoIdeaIcon from './icons/Shipper/NoIdeaIcon';
+import ExtendLeftIcon from './icons/Shipper/ExtendLeftIcon';
+import ExtendRightIcon from './icons/Shipper/ExtendRightIcon';
 
 export {
   RubiwinButton,
@@ -447,5 +449,7 @@ export {
   StopWatchIcon,
   MessageIcon,
   NoIdeaIcon,
-  ShipperAutocomplete
+  ShipperAutocomplete,
+  ExtendLeftIcon,
+  ExtendRightIcon
 };
