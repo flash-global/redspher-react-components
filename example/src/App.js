@@ -215,7 +215,7 @@ import {
   MessageIcon,
   Parcel2Icon,
   ExtendLeftIcon,
-  ExtendRightIcon,
+  ExtendRightIcon
 } from 'redspher-components';
 import {
   Button,
