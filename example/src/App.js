@@ -213,7 +213,9 @@ import {
   StopWatchIcon,
   NoIdeaIcon,
   MessageIcon,
-  Parcel2Icon
+  Parcel2Icon,
+  ExtendLeftIcon,
+  ExtendRightIcon,
 } from 'redspher-components';
 import {
   Button,
@@ -1456,6 +1458,8 @@ const ShipperShowCase = () => {
           <Parcel2Icon title='Parcel2Icon' />
           <NotificationIcon title='NoIdeaIcon' />
           <StopWatchIcon title='StopWatchIcon' />
+          <ExtendLeftIcon title='ExtendRightIcon' />
+          <ExtendRightIcon title='ExtendRightIcon' />
         </section>
         <section
           style={{
