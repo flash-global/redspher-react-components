@@ -6,7 +6,6 @@
   "license": "MIT",
   "repository": "yoctu/redspher-react-components",
   "main": "dist/index.js",
-  "module": "dist/index.modern.js",
   "source": "src/index.js",
   "types": "dist/index.d.ts",
   "engines": {
