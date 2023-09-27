@@ -45,7 +45,6 @@ export default function ShipperSelect({
       className={className}
       MenuProps={{
         // @ts-ignore
-        getContentAnchorEl: null,
         classes: { paper: classes.dropdown },
         elevation: 3
       }}
