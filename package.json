@@ -26,7 +26,7 @@
     "install:on:prefix": "npm --prefix ./example install",
     "postinstall:on:prefix": "npm --prefix ./example run build",
     "predeploy": "npm run install:on:prefix",
-    "deploy": "echo 'gh-pages -d example/build'"
+    "deploy": "gh-pages -d example/build"
   },
   "devDependencies": {
     "@babel/core": "^7.19.6",
