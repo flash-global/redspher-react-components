@@ -1,6 +1,6 @@
 {
   "name": "redspher-components",
-  "version": "2.5.2",
+  "version": "2.5.3",
   "description": "reusable components for redspher",
   "author": "Vincent Racelle",
   "license": "MIT",
@@ -22,13 +22,17 @@
     "test:lint": "eslint .",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
-    "predeploy": "npm install && npm --prefix ./example install && npm --prefix ./example run build",
+    "preinstall:on:prefix": "npm install",
+    "install:on:prefix": "npm --prefix ./example install",
+    "postinstall:on:prefix": "npm --prefix ./example run build",
+    "predeploy": "npm run install:on:prefix",
     "deploy": "gh-pages -d example/build"
   },
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/eslint-plugin": "^7.19.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-modules-commonjs": "^7.19.6",
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.19.4",

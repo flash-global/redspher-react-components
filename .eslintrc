@@ -1,15 +1,6 @@
 {
   "ignorePatterns": ["example/*"],
   "parser": "@typescript-eslint/parser",
-  "extends": [
-    "standard",
-    "standard-react",
-    "airbnb",
-    "eslint:recommended",
-    "prettier",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
-  ],
   "plugins": ["@babel", "prettier", "@typescript-eslint", "jest"],
   "env": {
     "node": true,
