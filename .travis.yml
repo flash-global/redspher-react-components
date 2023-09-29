@@ -8,9 +8,6 @@ script:
 before_install:
   - npm i -g npm@8.7.0
 
-before_deploy:
-  - npm run predeploy
-
 deploy:
   - provider: npm
     skip_cleanup: true
