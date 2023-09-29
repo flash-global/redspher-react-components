@@ -1,6 +1,6 @@
 {
   "name": "redspher-components",
-  "version": "2.5.7",
+  "version": "2.5.8",
   "description": "reusable components for redspher",
   "author": "Vincent Racelle",
   "license": "MIT",
@@ -21,9 +21,7 @@
     "test:build": "run-s build",
     "test:lint": "eslint .",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
-    "test:watch": "react-scripts test --env=jsdom",
-    "predeploy": "npm install && npm --prefix ./example install && npm --prefix ./example run build",
-    "deploy": "gh-pages -d example/build"
+    "test:watch": "react-scripts test --env=jsdom"
   },
   "devDependencies": {
     "@babel/core": "^7.19.6",
