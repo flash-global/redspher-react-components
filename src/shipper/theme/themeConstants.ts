@@ -1,9 +1,9 @@
 export const colors = {
   get primary() {
-    return this.blue;
+    return this.red;
   },
   get secondary() {
-    return this.red;
+    return this.blue;
   },
   blue: {
     main: '#1436D3',
@@ -11,8 +11,9 @@ export const colors = {
     dark: '#003B81'
   },
   red: {
-    main: '#F20738',
-    light: '#F5C5CF'
+    main: '#E20026',
+    light: '#F5C5CF',
+    dark: '#AF071F'
   },
   grey: {
     dark: '#68717B',
